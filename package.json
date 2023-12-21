@@ -6,8 +6,8 @@
     "url": "git://github.com/lynnandtonic/lynnandtonic.com.git"
   },
   "scripts": {
-    "start": "grunt serve",
-    "build": "grunt build"
+    "start": "node api.js && grunt serve",
+    "build": "node api.js && grunt build"
   },
   "devDependencies": {
     "autoprefixer-stylus": "^0.14.0",
